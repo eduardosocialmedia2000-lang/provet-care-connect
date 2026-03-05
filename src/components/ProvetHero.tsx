@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, CalendarCheck } from "lucide-react";
-import heroVet from "@/assets/hero-vet.jpg";
+import heroVet from "@/assets/hero-vet.jpeg";
 
 const WHATSAPP_URL = "https://wa.me/5544991232555?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20na%20ProVet.";
 
