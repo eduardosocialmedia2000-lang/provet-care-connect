@@ -1,4 +1,4 @@
-import { Phone, Instagram } from "lucide-react";
+import { Phone, Instagram, MapPin } from "lucide-react";
 import logoProvet from "@/assets/logo-provet.jpg";
 
 const ProvetFooter = () => (

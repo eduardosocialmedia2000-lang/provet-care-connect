@@ -38,7 +38,7 @@ const ProvetHero = () => (
         <div className="flex justify-center">
           <img
             src={heroVet}
-            alt="Veterinária cuidando de cachorro na ProVet Clínica Veterinária em Maringá"
+            alt="Dr. Ulisses - Veterinário da ProVet Clínica Veterinária em Maringá"
             className="rounded-2xl shadow-2xl w-full max-w-lg object-cover aspect-square transition-transform duration-500 hover:scale-[1.02]"
             loading="eager"
           />
