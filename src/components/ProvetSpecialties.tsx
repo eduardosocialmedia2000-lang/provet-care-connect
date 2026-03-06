@@ -10,7 +10,7 @@ const specialties = [
 ];
 
 const ProvetSpecialties = () => (
-  <section className="bg-background py-16 md:py-20">
+  <section id="especialidades" className="bg-background py-16 md:py-20">
     <div className="container mx-auto px-4">
       <ScrollReveal animation="fade-up">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">
