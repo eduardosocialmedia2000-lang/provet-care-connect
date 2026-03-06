@@ -7,8 +7,9 @@ const WHATSAPP_URL = "https://wa.me/5544991232555?text=Olá,%20gostaria%20de%20a
 
 const navItems = [
   { label: "Início", href: "#inicio" },
-  { label: "Sobre a clínica", href: "#sobre" },
+  { label: "Sobre", href: "#sobre" },
   { label: "Serviços", href: "#servicos" },
+  { label: "Especialidades", href: "#especialidades" },
   { label: "Contato", href: "#contato" },
 ];
 

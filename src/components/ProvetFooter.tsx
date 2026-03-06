@@ -1,4 +1,4 @@
-import { Phone, Instagram } from "lucide-react";
+import { Phone, Instagram, MapPin } from "lucide-react";
 import logoProvet from "@/assets/logo-provet.jpg";
 
 const ProvetFooter = () => (
@@ -13,6 +13,10 @@ const ProvetFooter = () => (
         <a href="https://instagram.com/provet_clinica.veterinaria" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-secondary-foreground transition-colors">
           <Instagram className="h-4 w-4" /> @provet_clinica.veterinaria
         </a>
+      </div>
+      <div className="flex items-center justify-center gap-2 text-secondary-foreground/80 text-sm">
+        <MapPin className="h-4 w-4" />
+        <span>Av. Carlos Correa Borges — Maringá, PR, 87060-331</span>
       </div>
       <p className="text-secondary-foreground/60 text-xs pt-4">© {new Date().getFullYear()} ProVet Clínica Veterinária — Maringá, PR</p>
     </div>
