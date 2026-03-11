@@ -3,7 +3,7 @@ import { MessageCircle, CalendarCheck } from "lucide-react";
 import heroVet from "@/assets/hero-vet.jpeg";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const WHATSAPP_URL = "https://wa.me/5544991232555?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20na%20ProVet.";
+const WHATSAPP_URL = "https://wa.me/5544991232555?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento%20na%20ProVet.";
 
 const ProvetHero = () => (
   <section id="inicio" className="bg-background py-16 md:py-24">

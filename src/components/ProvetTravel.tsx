@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const WHATSAPP_URL = "https://wa.me/5544991232555?text=Olá,%20gostaria%20de%20informações%20sobre%20viagem%20com%20meu%20pet.";
+const WHATSAPP_URL = "https://wa.me/5544991232555?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento%20na%20ProVet.";
 
 const items = [
   { icon: ClipboardCheck, text: "Avaliação clínica antes da viagem" },
