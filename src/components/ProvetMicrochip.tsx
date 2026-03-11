@@ -2,7 +2,7 @@ import { Microchip, ShieldCheck, MapPin, Zap, CheckCircle, MessageCircle } from 
 import { Button } from "@/components/ui/button";
 import ScrollReveal from "@/components/ScrollReveal";
 
-const WHATSAPP_URL = "https://wa.me/5544991232555?text=Olá,%20gostaria%20de%20informações%20sobre%20implantação%20de%20microchip.";
+const WHATSAPP_URL = "https://wa.me/5544991232555?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento%20na%20ProVet.";
 
 const benefits = [
   { icon: CheckCircle, text: "Identificação permanente" },
