@@ -14,6 +14,7 @@ import ProvetTrust from "@/components/ProvetTrust";
 import ProvetCTA from "@/components/ProvetCTA";
 import ProvetFAQ from "@/components/ProvetFAQ";
 import ProvetFinalCTA from "@/components/ProvetFinalCTA";
+import ProvetContactForm from "@/components/ProvetContactForm";
 import ProvetMap from "@/components/ProvetMap";
 import ProvetFooter from "@/components/ProvetFooter";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -36,6 +37,7 @@ const Index = () => (
     <ProvetCTA />
     <ProvetFAQ />
     <ProvetFinalCTA />
+    <ProvetContactForm />
     <ProvetMap />
     <ProvetFooter />
     <WhatsAppButton />
