@@ -6,7 +6,6 @@ import ProvetDifferentials from "@/components/ProvetDifferentials";
 import ProvetServices from "@/components/ProvetServices";
 import ProvetSpecialties from "@/components/ProvetSpecialties";
 import ProvetTravel from "@/components/ProvetTravel";
-import ProvetExoticAnimals from "@/components/ProvetExoticAnimals";
 import ProvetMicrochip from "@/components/ProvetMicrochip";
 import ProvetAlertSigns from "@/components/ProvetAlertSigns";
 import ProvetTrust from "@/components/ProvetTrust";
@@ -28,7 +27,6 @@ const Index = () => (
     <ProvetServices />
     <ProvetSpecialties />
     <ProvetTravel />
-    <ProvetExoticAnimals />
     <ProvetMicrochip />
     <ProvetAlertSigns />
     <ProvetTrust />

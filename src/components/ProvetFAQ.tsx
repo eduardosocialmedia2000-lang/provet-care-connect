@@ -9,7 +9,6 @@ const faqs = [
   { q: "Quais formas de pagamento a ProVet aceita?", a: "Aceitamos dinheiro, cartão de crédito, cartão de débito e Pix. Para consultas sobre parcelamento, entre em contato pelo WhatsApp." },
   { q: "A ProVet realiza cirurgias e exames de imagem?", a: "Sim. Contamos com centro cirúrgico completo para procedimentos cirúrgicos, além de ultrassonografia e radiografia veterinária para diagnóstico por imagem." },
   { q: "Vocês atendem aos fins de semana?", a: "Atualmente a clínica não atende aos sábados e domingos. Para urgências fora do horário comercial, recomendamos buscar um hospital veterinário de plantão 24h em Maringá." },
-  { q: "A ProVet atende cães, gatos e animais exóticos?", a: "Atendemos principalmente cães e gatos. Para animais exóticos (aves, répteis, pequenos mamíferos) realizamos orientações e avaliações mediante avaliação prévia — fale com a clínica antes da consulta." },
 ];
 
 const ProvetFAQ = () => (
