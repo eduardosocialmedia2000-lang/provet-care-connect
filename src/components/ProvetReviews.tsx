@@ -20,54 +20,54 @@ const reviews = [
     when: "há 2 semanas",
     rating: 5,
     text:
-      "Meu cachorro estava com vômitos, diarreia e dor. Pesquisei e pedi indicações, conhecemos a ProVet e descobrimos que ele estava com Parvovirose. Foi uma luta, mas ele teve um bom atendimento e se recuperou. Agradeço a toda equipe!",
+      "A um tempo meu cachorro indicava estar mal, Vômitos, Diarreia.. Não estava mais o mesmo de antes, E olha que o Tratamos muito bem, Nisso começamos a perceber que ele estava com Dor Também, Então Pesquisei e Pedi Indicações, Conheçemos a Provet e Encaminhamos ele até, e fomos descobrir que ele estava com Parvovirose, Muito Triste, Foi uma Luta, Mas ele teve um Bom Atendimento, Trazendo a sua Recuperação! Para mim deu certo, Agradeço a toda Equipe!",
   },
   {
     author: "Giovanna Pontarola",
     when: "há 2 semanas",
     rating: 5,
     text:
-      "A clínica é linda, um espaço acolhedor tanto para o seu pet quanto para você. O Dr. Ulisses é extremamente cuidadoso, conhecedor dos bichinhos, traz segurança e te auxilia em tudo. Você não sente só o seu pet bem cuidado, você também.",
+      "A clínica é linda, um espaço acolhedor tanto para o seu pet quanto para você, o Dr Ulisses extremamente cuidadoso, conhecedor dos bichinhos, traz segurança e te auxilia em tudo, você não sente somente o seu pet bem cuidado mas você também!",
   },
   {
     author: "Aethur Camargo Jacubovski",
     when: "há 2 semanas",
     rating: 5,
     text:
-      "Levo meus dois goldens para atendimento com o Dr. Ulisses desde as primeiras vacinas. A equipe sempre me atendeu com muito carinho e com qualidade nos tratamentos. Recomendo.",
+      "Levo meus dois goldens para atendimento com o Dr. Ulisses des das primeiras vacinas. A equipe sempre me atendeu com muito carinho e com qualidade nos tratamentos… Recomendo.",
   },
   {
     author: "fabiana saenger",
     when: "há 1 semana",
     rating: 5,
     text:
-      "Atendimento, qualidade, cuidado e atenção! Dr. Nobili é excelente, cuida dos meus pets há muitos anos!",
+      "Atendimento, qualidade, cuidado e atenção ! Dr Nobili é excelente! Cuida dos meus pets há muitos anos!",
   },
   {
     author: "Pina Souza",
     when: "há 2 semanas",
     rating: 5,
     text:
-      "Excelente, muito competentes e amorosos. Amei o atendimento. Indico com maior certeza! 👏",
+      "Excelente, muito competentes, e amorosos , amei o atendimento. Indico com maior certeza 👏👏👏👏👏",
   },
   {
     author: "Suzi Franceschi",
     when: "há 2 semanas",
     rating: 5,
-    text: "Ótimo atendimento e excelentes profissionais. Super indico!",
+    text: "ÓTIMO ATENDIMENTO E EXCELENTES PROFISSIONAIS, SUPER INDICO",
   },
   {
     author: "isabella anjos",
     when: "há 2 semanas",
     rating: 5,
     text:
-      "Ótima! Recomendo super. Pessoal super atencioso e interessado em cuidar do seu pet.",
+      "Otima !!! Recomendo super, pessoal super atencioso e interessados em cuidar so seu pet",
   },
   {
     author: "Lucas Fancelli",
     when: "há 1 semana",
     rating: 5,
-    text: "Ótimo atendimento e cuidados com o animal.",
+    text: "Ótimo atendimento e cuidados com o animal",
   },
 ];
 
