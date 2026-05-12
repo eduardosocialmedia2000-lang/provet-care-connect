@@ -9,6 +9,7 @@ import ProvetTravel from "@/components/ProvetTravel";
 import ProvetMicrochip from "@/components/ProvetMicrochip";
 import ProvetAlertSigns from "@/components/ProvetAlertSigns";
 import ProvetTrust from "@/components/ProvetTrust";
+import ProvetReviews from "@/components/ProvetReviews";
 import ProvetCTA from "@/components/ProvetCTA";
 import ProvetFAQ from "@/components/ProvetFAQ";
 import ProvetFinalCTA from "@/components/ProvetFinalCTA";
@@ -30,6 +31,7 @@ const Index = () => (
     <ProvetMicrochip />
     <ProvetAlertSigns />
     <ProvetTrust />
+    <ProvetReviews />
     <ProvetCTA />
     <ProvetFAQ />
     <ProvetFinalCTA />
