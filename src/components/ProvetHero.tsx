@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, CalendarCheck } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 import heroVet from "@/assets/hero-vet.jpeg";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const WHATSAPP_URL = "https://wa.me/5544991232555?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento%20na%20ProVet.";
+const PHONE_URL = "tel:+5544991232555";
 
 const ProvetHero = () => (
   <section id="inicio" className="bg-background py-16 md:py-24">
@@ -27,8 +28,8 @@ const ProvetHero = () => (
               </a>
             </Button>
             <Button variant="hero-outline" asChild className="transition-transform hover:scale-105 active:scale-95">
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="gap-2">
-                <CalendarCheck className="h-5 w-5" /> Agendar atendimento
+              <a href={PHONE_URL} className="gap-2">
+                <Phone className="h-5 w-5" /> Ligar (44) 99123-2555
               </a>
             </Button>
           </div>

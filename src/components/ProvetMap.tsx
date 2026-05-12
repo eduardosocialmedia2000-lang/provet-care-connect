@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Clock } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const ProvetMap = () => (
@@ -6,13 +6,19 @@ const ProvetMap = () => (
     <div className="container mx-auto px-4">
       <ScrollReveal animation="fade-up">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">
-          Localização
+          Localização e horário
         </h2>
       </ScrollReveal>
       <ScrollReveal animation="fade-up" delay={100}>
-        <div className="flex items-center justify-center gap-2 text-muted-foreground mb-8">
-          <MapPin className="h-5 w-5 text-primary" />
-          <p className="text-lg">Av. Carlos Correa Borges — Maringá, PR, 87060-331</p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-2 text-muted-foreground mb-8">
+          <div className="flex items-center gap-2">
+            <MapPin className="h-5 w-5 text-primary" />
+            <p className="text-lg">Av. Carlos Correa Borges — Maringá, PR, 87060-331</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <Clock className="h-5 w-5 text-primary" />
+            <p className="text-lg">Seg a Sex, 8h às 18h</p>
+          </div>
         </div>
       </ScrollReveal>
       <ScrollReveal animation="fade-up" delay={200}>

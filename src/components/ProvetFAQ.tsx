@@ -2,10 +2,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import ScrollReveal from "@/components/ScrollReveal";
 
 const faqs = [
-  { q: "Vocês atendem urgências?", a: "Sim, a ProVet está preparada para atender casos de urgência. Entre em contato pelo WhatsApp para orientação imediata." },
-  { q: "A clínica realiza cirurgias?", a: "Sim. Contamos com centro cirúrgico completo para realizar procedimentos quando necessário." },
-  { q: "Precisa agendar consulta?", a: "Recomendamos o agendamento para garantir o melhor atendimento, mas também atendemos demandas urgentes." },
-  { q: "Atendem cães e gatos?", a: "Sim, a ProVet oferece atendimento clínico e cirúrgico para cães e gatos." },
+  { q: "Qual o horário de funcionamento da ProVet?", a: "A ProVet atende de segunda a sexta-feira, das 8h às 18h. Aos sábados e domingos a clínica fica fechada. Recomendamos agendar previamente pelo WhatsApp (44) 99123-2555." },
+  { q: "Vocês atendem urgências dentro do horário comercial?", a: "Sim, dentro do horário de funcionamento atendemos casos de urgência. Entre em contato pelo WhatsApp ou ligue (44) 99123-2555 para orientação imediata." },
+  { q: "Onde fica a ProVet em Maringá?", a: "A ProVet fica na Av. Carlos Correa Borges, Maringá, PR — CEP 87060-331. O endereço completo e o trajeto estão no Google Maps na seção de localização." },
+  { q: "Quanto custa uma consulta veterinária na ProVet?", a: "O valor varia conforme o tipo de avaliação e os exames complementares necessários. Para um orçamento sob medida, fale com a recepção pelo WhatsApp (44) 99123-2555." },
+  { q: "Quais formas de pagamento a ProVet aceita?", a: "Aceitamos dinheiro, cartão de crédito, cartão de débito e Pix. Para consultas sobre parcelamento, entre em contato pelo WhatsApp." },
+  { q: "A ProVet realiza cirurgias e exames de imagem?", a: "Sim. Contamos com centro cirúrgico completo para procedimentos cirúrgicos, além de ultrassonografia e radiografia veterinária para diagnóstico por imagem." },
+  { q: "Vocês atendem aos fins de semana?", a: "Atualmente a clínica não atende aos sábados e domingos. Para urgências fora do horário comercial, recomendamos buscar um hospital veterinário de plantão 24h em Maringá." },
+  { q: "A ProVet atende cães, gatos e animais exóticos?", a: "Atendemos principalmente cães e gatos. Para animais exóticos (aves, répteis, pequenos mamíferos) realizamos orientações e avaliações mediante avaliação prévia — fale com a clínica antes da consulta." },
 ];
 
 const ProvetFAQ = () => (
