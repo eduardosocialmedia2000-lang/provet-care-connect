@@ -1,6 +1,5 @@
 import { Heart } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
-import AnimatedCounter from "@/components/AnimatedCounter";
 
 const ProvetAbout = () => (
   <section id="sobre" className="bg-background py-16 md:py-20">
@@ -22,13 +21,6 @@ const ProvetAbout = () => (
           <p>A ProVet oferece atendimento clínico e cirúrgico para cães e gatos, com foco em diagnóstico responsável e cuidado verdadeiro com o animal.</p>
           <p>Cada caso é avaliado com atenção para identificar o problema e definir o melhor tratamento possível.</p>
           <p className="font-semibold text-foreground">Nosso compromisso é oferecer segurança para o tutor e bem-estar para o pet.</p>
-        </div>
-      </ScrollReveal>
-      <ScrollReveal animation="fade-up" delay={300}>
-        <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border mt-8">
-          <AnimatedCounter end={10} suffix="+" label="Anos de experiência" />
-          <AnimatedCounter end={5000} suffix="+" label="Pets atendidos" />
-          <AnimatedCounter end={98} suffix="%" label="Satisfação dos tutores" />
         </div>
       </ScrollReveal>
     </div>
